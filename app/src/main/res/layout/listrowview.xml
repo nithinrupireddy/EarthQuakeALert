@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="20dp"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:id="@+id/magnitude"
+            android:textSize="17sp"
+            android:padding="10dp"
+            android:background="@drawable/magnitude_circle"
+            android:gravity="center"
+            android:text="hi"
+            android:textColor="#000"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            android:id="@+id/location"
+            android:textSize="17sp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:text="hi"
+            android:textColor="#000"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/date"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:text="hi"
+            android:textColor="#000"
+            android:padding="10dp"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/time"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:text="hi"
+            android:textColor="#000"
+            android:padding="10dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
+
