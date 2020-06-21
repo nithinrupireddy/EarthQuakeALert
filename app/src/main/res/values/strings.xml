@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">NewProject</string>
+    <string name="app_name">EarthQUake Project</string>
 
     <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
     <string name="settings_menu_item">Settings</string>
