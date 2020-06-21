@@ -17,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         nextButton = findViewById(R.id.button);
+        //this is new comment
+        //this is to check whether it is reflecting or not
         nextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
